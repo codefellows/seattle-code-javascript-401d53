@@ -4,6 +4,8 @@
 
 Express Server Mechanics: Routing, Middleware, and Approaches to Testing
 
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/5ouAex5hy)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
