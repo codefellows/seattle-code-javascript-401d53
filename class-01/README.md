@@ -4,6 +4,8 @@
 
 Application development in the Node.js ecosystem, including the writing of modular code using CommonJS modules, writing tests to assert code quality, setting up and working in a "Continuous Integration"  environment (Github Actions).
 
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/7UcTxe6vg)
+
 ## Class Outline
 
 - Kick-off and Introductions
