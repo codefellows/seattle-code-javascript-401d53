@@ -4,6 +4,8 @@
 
 Express servers can quickly get big and out of control if you build them in one monolithic server file. There are many strategies for breaking the route handling logic into modules that "make sense" ... we'll be introducing the you to one such pattern today -- separate routers that contain all of the routing logic and handlers using `Express.router()`. In 301, we kept the route definitions in the server and imported the handler functions from other modules. There is more than one way to do it, and your applications can be seen through many lenses.
 
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/GC8zbQNUb)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->

@@ -21,7 +21,6 @@ Your scripts section should have the following, so that you can easily run tests
 ```json
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint **/*.js",
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose --coverage",
     "init:config": "sequelize init:config",
