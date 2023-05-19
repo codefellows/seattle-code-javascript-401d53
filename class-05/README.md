@@ -2,11 +2,13 @@
 
 ## Class Outline
 
-<!-- To Be Completed By Instructor -->
+See today's freehand and Linked List reading
 
 ## Learning Objectives
 
-### Data Structure: <!-- TBD: Fill In Name -->
+### Data Structure: Linked List
+
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/mMWRcdqKf)
 
 - Implement
 - Document
