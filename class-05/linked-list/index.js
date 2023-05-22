@@ -47,6 +47,35 @@ class LinkedList {
     }
   }
 
+  includes(value){
+    let current = this.head;
+    while(current){
+      // shorthand one liner
+      if(current.value === value) return true;
+      // another way - maybe the way you are used to seeing
+      // if(current.value === value) {
+      //   return true
+      // };
+
+      current = current.next;
+    }
+    return false;
+  }
+
+  toString(){
+    let result = '';
+    let current = this.head;
+    // goal:  "{ a } -> { b } -> { c } -> NULL"
+    while(current){
+      result += `{ ${current.value} } -> `;
+      current = current.next
+    }
+
+    result += 'NULL';
+
+    return result;
+  }
+
 }
 
 let list  = new LinkedList();
@@ -57,6 +86,7 @@ list.append('d');
 
 console.log(JSON.stringify(list));
 
+console.log('includes works: ', list.includes('banana'));
 
 
 module.exports = LinkedList
