@@ -19,9 +19,9 @@ let decodedStr = base64.decode(encodedStr);
 // basic auth string: Basic <some encoded value>, 
 // the encoded value is username:password
 
-let user = 'ryan:pass'
+let user = 'Lucky:woof'
 let encodedUser = base64.encode(user);
-// console.log('encodedUser:', encodedUser);
+console.log('encodedUser:', encodedUser);
 
 // generate auth string:  
 let authString = `Basic ${encodedUser}`

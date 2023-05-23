@@ -76,6 +76,26 @@ class LinkedList {
     return result;
   }
 
+  insertBefore(value, newValue){
+    if(!this.head) throw new Error('Linked list is Empty');
+    if(!this.head.value === value)this.insert(value);
+    if(!this.includes(value)) throw new Error('value not found');
+
+    let current = this.head;
+    while(current){
+      // do the thing
+      if(current.next && current.next.value === value){
+        let newNode = new Node(newValue);
+        newNode.next = current.next;
+        current.next = newNode
+        current = current.next.next;
+      } else {
+        current = current.next;
+      }
+    }
+
+  }
+
 }
 
 let list  = new LinkedList();
@@ -87,6 +107,9 @@ list.append('d');
 console.log(JSON.stringify(list));
 
 console.log('includes works: ', list.includes('banana'));
+
+list.insertBefore('c', 1);
+console.log(list.toString());
 
 
 module.exports = LinkedList

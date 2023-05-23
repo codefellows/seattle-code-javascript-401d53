@@ -13,6 +13,9 @@ Today, we'll be looking at ways to create an account and securely authenticate a
 
 ## Learning Objectives
 
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/eHI3XBH9u)
+
+
 ### Students will be able to
 
 #### Describe and Define
