@@ -4,6 +4,9 @@
 
 Using a "Bearer Token" to re-authenticate with a server following a successful login, or obtaining/generating a permanent key
 
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/qEZTvkSPA)
+
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
