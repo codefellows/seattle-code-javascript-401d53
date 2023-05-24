@@ -6,6 +6,8 @@ While **Authentication** answers the question "Who are you?" ... or more specifi
 
 Given a proper and valid user with a set of permissions, we can grant or restrict access to anything in our server.
 
+### [Today's Freehand](https://projects.invisionapp.com/freehand/document/jaN3KXcYg)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
