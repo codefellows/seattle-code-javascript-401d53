@@ -1,50 +1,50 @@
 'use strict';
 
 class Node {
-  constructor(value){
+  constructor(value) {
     this.value = value;
     this.next = null;
   }
 }
 
 class Stack {
-  constructor(){
+  constructor() {
     this.top = null;
   }
 
-  push(value){
+  push(value) {
     let newNode = new Node(value);
     newNode.next = this.top;
     this.top = newNode;
   }
 
-  pop(){
+  pop() {
     let removedValue = null;
-      if(this.top){
-        removedValue = this.top.value;
-        this.top = this.top.next;
-      }
-      return removedValue;
+    if (this.top) {
+      removedValue = this.top.value;
+      this.top = this.top.next;
+    }
+    return removedValue;
   }
 
-  peek(){
+  peek() {
     return this.top.value;
   }
 
-  isEmpty(){
+  isEmpty() {
     return this.top === null;
   }
 }
 
 class Queue {
-  constructor(){
+  constructor() {
     this.front = null;
     this.back = null;
   }
 
-  enqueue(value){
+  enqueue(value) {
     let newNode = new Node(value);
-    if(this.front){
+    if (this.front) {
       // get ready to get in line
       this.back.next = newNode
     } else {
@@ -52,15 +52,15 @@ class Queue {
       this.front = newNode
     }
 
-  //  we assign the back pointer OR you could say we move the back pointer to the new node
+    //  we assign the back pointer OR you could say we move the back pointer to the new node
     this.back = newNode
   }
-  dequeue(){
+  dequeue() {
     let removedValue = null;
-    if(this.front){
+    if (this.front) {
       removedValue = this.front.value;
       // if there was only one nide in the Queue, we need to make back null
-      if (this.front === this.back){
+      if (this.front === this.back) {
         this.back = null;
       }
       // works if list is empty or populated!  will either be null, or "next in line"
@@ -70,12 +70,12 @@ class Queue {
     return removedValue;
   }
 
-  peek(){
+  peek() {
 
   }
 
-  isEmpty(){
-    
+  isEmpty() {
+
   }
 }
 
