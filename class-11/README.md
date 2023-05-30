@@ -4,6 +4,8 @@
 
 Today, we will leverage the ability of Javascript to raise events, monitor events, and perform operations in response to events occurring.
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-11-5UkgoPDlj)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
