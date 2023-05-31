@@ -13,14 +13,22 @@ jest.mock('../eventEmitter.js', () => {
   };
 });
 
-// this will be updated toa  spy.  this is DANGEROUS, only gets you about 80% correct functionality.  very brittle.  spy is coming
-console.log = jest.fn();
+let consoleSpy;
+beforeEach(() => {
+  // Attach to the console (take it over)
+  consoleSpy = jest.spyOn(console, 'log').mockImplementation();
+});
+
+afterEach(() => {
+  // Put the console back
+  consoleSpy.mockRestore();
+});
 
 describe ('Eye Handler', () => {
   it ('log and emit brightness payload', () => {
     const payload = {brightness: 42};
     handler(payload);
-    expect(console.log).toHaveBeenCalledWith(`Eyes: see brightness of ${payload.brightness}`);
+    expect(consoleSpy).toHaveBeenCalledWith(`Eyes: see brightness of ${payload.brightness}`);
     expect(eventEmitter.emit).toHaveBeenCalledWith('BRIGHTNESS', payload);
 
   });
