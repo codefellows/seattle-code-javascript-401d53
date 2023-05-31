@@ -4,6 +4,9 @@
 
 Description Here
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-12-OkUcEa3NT)
+
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
