@@ -4,6 +4,8 @@
 
 To this point, we've built servers based on internal event processing and network event handling in Real Time with Socket.io. In this class, we'll be exploring ways to "Queue" messages for guaranteed delivery
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-13-B9XvE5TVE)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
