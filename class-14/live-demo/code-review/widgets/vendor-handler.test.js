@@ -24,11 +24,17 @@ afterAll(() => {
 describe('Vendor handlers', () => {
 
   test('Should log correct emit and console log for orderHandler', () => {
-    let payload = {
+    let order = {
       orderId: 12345,
     };
+    let payload = {
+      event: 'pickup',
+      messageId: order.orderId,
+      queueId: 'acme-widgets',
+      order,
+    };
 
-    orderHandler(socket, payload);
+    orderHandler(socket, order);
 
     expect(consoleSpy).toHaveBeenCalledWith('VENDOR: ORDER ready for pickup:', payload);
     expect(socket.emit).toHaveBeenCalledWith('pickup', payload);
@@ -36,12 +42,14 @@ describe('Vendor handlers', () => {
 
   test('Should log correct emit and console log for thankDriver', () => {
     let payload = {
-      customer: 'Test Test',
+      order: {
+        customer: 'Test Test',
+      },
     };
 
     thankDriver(payload);
 
-    expect(consoleSpy).toHaveBeenCalledWith('VENDOR: Thank you for your order', payload.customer);
+    expect(consoleSpy).toHaveBeenCalledWith('VENDOR: Thank you for your order', payload.order.customer);
   });
 
 });

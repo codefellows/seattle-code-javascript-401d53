@@ -7,7 +7,7 @@ const pickupOccurred = (payload, socket) => {
 
 const packageDelivered = (payload, socket) => {
   console.log('DRIVER: delivered', payload.order.orderId);
-  socket.emit('delivered', payload);
+  socket.emit('delivered', {...payload, event: 'delivered'});
 };
 
 module.exports = { pickupOccurred, packageDelivered };

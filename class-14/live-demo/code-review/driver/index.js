@@ -17,4 +17,5 @@ socket.on('pickup', (payload) => {
   setTimeout(() => {
     packageDelivered(payload, socket);
   }, 2000);
+  socket.emit('received', {queueId: 'driver', messageId: payload.messageId});
 }); 
