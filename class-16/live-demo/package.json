@@ -1,0 +1,28 @@
+{
+  "name": "lab-16-server-d53",
+  "version": "1.0.0",
+  "description": "## For React Applications",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/lab-16-server-d53.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkgallaway/lab-16-server-d53/issues"
+  },
+  "homepage": "https://github.com/rkgallaway/lab-16-server-d53#readme",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  },
+  "engines" : { 
+    "node" : "18.x"
+  }
+}
