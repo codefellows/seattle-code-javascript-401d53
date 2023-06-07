@@ -4,6 +4,8 @@
 
 AWS Lambda allows writing code that is triggered in the cloud, without thinking about maintaining servers.
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-17-BkrfCZEJG)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
