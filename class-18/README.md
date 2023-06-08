@@ -4,6 +4,8 @@
 
 Mirroring our previous efforts in Express, today, we will be wiring up a completely serverless, let fully functional, CRUD-Enabled API.
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-18-1bqJBjKLH)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
