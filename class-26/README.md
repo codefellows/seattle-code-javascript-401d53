@@ -6,6 +6,8 @@ Component based UI systems like `React`, `Angular`, `Vue` and the like all opera
 
 "Thinking in React" means re-evaluating how you look at a web application: Breaking down it's functional parts, data dependencies, behaviors, and styles into independent, deliverable, re-usable components.
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-26-i2ARiuPY4)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->

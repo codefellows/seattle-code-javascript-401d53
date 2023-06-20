@@ -1,0 +1,32 @@
+// create variables (these  could live in a single file and be imported)
+$bg-color: lightgray;
+$primary: green;
+$secondary: purple;
+
+@mixin theme($chosenColor){
+  background-color: $bg-color;
+  color: $chosenColor;
+}
+
+article {
+  @include theme($secondary);
+  // background-color: $bg-color;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 10vw;
+
+  h4 {
+    text-align: center;
+    // color: $primary;
+  }
+
+  p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 5vw;
+    // color: $secondary;
+  }
+}
+

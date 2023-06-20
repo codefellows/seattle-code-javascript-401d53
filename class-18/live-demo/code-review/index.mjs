@@ -2,7 +2,6 @@ import { S3Client, GetObjectCommand, PutObjectCommand } from '@aws-sdk/client-s3
 import { Response } from 'node-fetch'
 
 export const handler = async(event) => {
-  //create  our s3 connection capability
   let s3Client = new S3Client({region: 'us-west-2'});
   
   let name = event.Records[0].s3.object.key;
@@ -20,7 +19,7 @@ export const handler = async(event) => {
   let imageDetails;
   try {
     let results = await s3Client.send(new GetObjectCommand(input));
-    let response = new Response(results.Body) // satisfies the result "promise"
+    let response = new Response(results.Body) // satisfies the results "promise"
     let retrievedImageDetails = await response.json() // converts response into usable array
     imageDetails = retrievedImageDetails; // at this point we have the array if json exists
   }catch(e){
@@ -47,7 +46,6 @@ export const handler = async(event) => {
   } catch(e){
     console.warn('failed to put', e)
   }
-  // TODO implement
   const response = {
       statusCode: 200,
       body: stringifiedDetails,
