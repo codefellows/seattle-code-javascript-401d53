@@ -4,7 +4,9 @@
 
 To this point, state has been owned and managed solely in Class based React components, using `this.state` with `this.setState()` and instance methods to manage it all.
 
-Newer versions of React now allow for "function components" to also manage their own state, using a newly exposed API, called "Hooks"
+Newer versions of React now allow for "function components" to also manage their own state, using a newly exposed API, called "Hooks".
+
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-27-R5J6cQroS)
 
 ## Class Outline
 
