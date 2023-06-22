@@ -6,6 +6,8 @@ To this point, state has been owned and managed solely in Class based React comp
 
 Newer versions of React now allow for "function components" to also manage their own state, using a newly exposed API, called "Hooks"
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-28-yCWdztSH9)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
@@ -14,7 +16,7 @@ Newer versions of React now allow for "function components" to also manage their
 
 ### Students will be able to
 
-#### Describe and Define
+#### Describe and Definecd class-28 
 
 - Describe the lifecycle of a React component
 - Use of the effect hook to tap into and operate on the component lifecycle
