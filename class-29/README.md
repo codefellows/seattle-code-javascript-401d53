@@ -4,6 +4,8 @@
 
 State is often more complex than simply updating a value directly. Often, we need to update values conditionally. Additionally, state might be more complex than a single value. In these cases, where we need more articulated access, we can use a "reducer" which allows us to interact with state using a common API
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-29-sSayfhDiR)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->
