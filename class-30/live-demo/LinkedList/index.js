@@ -104,12 +104,12 @@ list.append('b');
 list.append('c');
 list.append('d');
 
-console.log(JSON.stringify(list));
+// console.log(JSON.stringify(list));
 
-console.log('includes works: ', list.includes('banana'));
+// console.log('includes works: ', list.includes('banana'));
 
 list.insertBefore('c', 1);
-console.log(list.toString());
+// console.log(list.toString());
 
 
 module.exports = LinkedList

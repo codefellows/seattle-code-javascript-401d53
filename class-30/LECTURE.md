@@ -31,9 +31,9 @@ Why would we use a binary tree?
 Why use a BST?
 - efficiency in sorting:  we cut the number of our options in half at every step, so we get Big O of time:  O(log n);
 
-n = 10 -> Big O time O(n)  things 10 times.  
-n = 10 -> Big O time O(log n)  3 times (5, 2.5, 1.25)
-n = 100 -> Big O time O(log n)  6 times (50, 25, 12.5, 6, 3, 1.50)
+- n = 10 -> Big O time O(n)  things 10 times.  
+- n = 10 -> Big O time O(log n)  3 times (5, 2.5, 1.25)
+- n = 100 -> Big O time O(log n)  6 times (50, 25, 12.5, 6, 3, 1.50)
 
 ## Hash Table
 

@@ -2,7 +2,10 @@
 
 ## Class Outline
 
-<!-- To Be Completed By Instructor -->
+HashTables - See [LECTURE.md](./LECTURE.md)
+
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-30-aFs2L5kDP)
+
 
 ## Learning Objectives
 
