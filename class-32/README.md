@@ -2,6 +2,8 @@
 
 Using the React "Context API" we can create an manage state in a more "global" fashion, making state that matters to your entire application easily available to ... your entire application.
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-32-6D1JFxeP7)
+
 ## Learning Objectives
 
 ### Students will be able to
