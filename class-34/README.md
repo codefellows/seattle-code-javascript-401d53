@@ -2,6 +2,8 @@
 
 Today, we will combine Authentication (valid user is logged in) and Authorization (what permissions does the user have) to create a UI that ensures that users only have access to content and functionality that they're granted access to.
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-34-xyfbWQIlu)
+
 ## Learning Objectives
 
 ### Students will be able to
