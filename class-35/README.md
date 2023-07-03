@@ -2,7 +2,9 @@
 
 ## Class Outline
 
-<!-- To Be Completed By Instructor -->
+### Whiteboard
+
+[Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-Class-35-GMohxeXba)
 
 ## Learning Objectives
 
