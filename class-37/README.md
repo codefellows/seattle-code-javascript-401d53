@@ -4,6 +4,8 @@
 
 Redux excels at not only global state, but complex global state. Today, we'll be using multiple reducers to manage separate parts of the store
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-Class-37-nNj0fvfcI)
+
 ## Class Outline
 
 <!-- To Be Completed By Instructor -->

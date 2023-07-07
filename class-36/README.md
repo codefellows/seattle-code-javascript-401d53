@@ -4,7 +4,7 @@
 
 Managing global state at the application level can definitely be a challenge. While the Context API provides a mechanism to accomplish this very tactically, Redux is a library that specializes in sharing state between components using a global "Store"
 
-[Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d35-Class-36-H39MXhyA6)
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d35-Class-36-H39MXhyA6)
 
 ## Class Outline
 
