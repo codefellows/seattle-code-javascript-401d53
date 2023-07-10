@@ -4,6 +4,10 @@
 
 Connecting a Redux application to a backend service (i.e. an API) requires a bit of additional work, as asynchronous actions can cause issues with the internal Redux store management mechanisms. Today, we will be exploring Redux middleware, specifically "Thunk" which provides the mechanism to work asynchronously with Redux
 
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-Class-37-nNj0fvfcI)
+
+> Note: using class 37 whiteboard again. No changes in today's UML, just refactoring to use Redux Toolkit in demo
+
 ## Class Outline
 
 <!-- To be completed by instructor -->

@@ -4,6 +4,8 @@
 
 **[Grading Rubric](https://docs.google.com/spreadsheets/d/1scthkmARfzAFZrSYAp6LA2coOaoWUWbSzMbtIU4jcHw/edit?usp=sharing)**
 
+**[Geeks For Geeks DSA](https://www.geeksforgeeks.org/data-structures/)**
+
 See [Warmups for practice](../warmups/README.md)
 
 ### Some Important Concepts

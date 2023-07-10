@@ -16,6 +16,17 @@ function productsReducer(state = initialState, action) {
       return {
         products: initialState.products.filter(product => product.category === action.payload.name)
       };
+    case 'ADD':
+      return {
+        ...state,
+        products: state.products.map(product => product.name === action.payload.name ? {...product, inStock: product.inStock -1} : product),
+      };
+      case 'REMOVE':
+        return {
+          ...state,
+          products: state.products.map(product => product.name === action.payload.name ? {...product, inStock: product.inStock + 1} : product),
+        }
+    
     default:
       return state;
   }
