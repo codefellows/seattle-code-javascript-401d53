@@ -1,5 +1,3 @@
-# Javascript Frameworks
+# React Native - Advanced
 
-Continue working on your Portfolio site in Gatsby.js
-
-Continue working with your team on your Salmon Cookies application
+Continued work on the 2-session React Native Application
