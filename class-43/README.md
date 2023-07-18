@@ -2,10 +2,9 @@
 
 ## Overview
 
-Create a native, in-stallable mobile application
+Create a native, installable mobile application
 
-### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-42-1NRyNPpkJ
-)
+### [Today's Freehand](https://ryangallaway792749.invisionapp.com/freehand/401d53-class-42-1NRyNPpkJ)
 
 
 ## Class Outline
